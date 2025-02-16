@@ -1,0 +1,17 @@
+{
+  "name": "get-version-utility",
+  "version": "0.0.1",
+  "description": "getVersion returns the currently installed version. That's it",
+  "author": "Matteo Cosi",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "test": "jest"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "exports": "./dist/main.js",
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "rimraf": "^6.0.1"
+  }
+}
