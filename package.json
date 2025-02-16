@@ -5,7 +5,8 @@
   "author": "Matteo Cosi",
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "patch": "npm run test && npm run build && npm version patch && npm publish"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
