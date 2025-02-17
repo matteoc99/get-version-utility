@@ -1,6 +1,6 @@
-# get-version-utility
+# get-version-util
 
-[![npm version](https://badge.fury.io/js/get-version-utility.svg)](https://badge.fury.io/js/get-version-utility)
+[![npm version](https://badge.fury.io/js/get-version-util.svg)](https://badge.fury.io/js/get-version-util)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A minimal TypeScript utility that returns the current version of the package.
@@ -19,13 +19,13 @@ and test that the specified package version is actually correct.
 ## Installation
 
 ```bash
-npm install get-version-utility
+npm install get-version-util
 ```
 
 ## Usage
 
 ```typescript
-import {getVersion} from 'get-version-utility';
+import {getVersion} from 'get-version-util';
 
 const version: string = getVersion(); // returns the installed version
 ```

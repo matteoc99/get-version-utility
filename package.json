@@ -1,5 +1,5 @@
 {
-  "name": "get-version-utility",
+  "name": "get-version-util",
   "version": "0.0.1",
   "description": "getVersion returns the currently installed version. That's it",
   "author": "Matteo Cosi",
